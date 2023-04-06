@@ -1,9 +1,9 @@
-## ReconMaster : gather information about a target website using various tools and techniques to perform subdomain enumeration,    directory enumeration, port scanning and service enumeration, vulnerability scanning, web technology reconnaissance, and network reconnaissance.
+### ReconMaster : gather information about a target website using various tools and techniques to perform subdomain enumeration,    directory enumeration, port scanning and service enumeration, vulnerability scanning, web technology reconnaissance, and network reconnaissance.
 
-![/banner.png](https://github.com/TNRooT/bruteforcedomain/blob/master/banner.png)
+![/banner.png](https://github.com/TNRooT/ReconMaster/blob/main/banner.png)
 
 
-### Key Features :
+#### Key Features :
 
    - Subdomain enumeration: discovers subdomains of a target domain, which can help identify potential attack surfaces and entry points.
    - HTTP probing: checks if discovered subdomains are live and responding to HTTP requests.
@@ -16,7 +16,7 @@
    - CORS testing: tests for Cross-Origin Resource Sharing (CORS) misconfigurations, which can allow attackers to bypass same-origin policies and access sensitive data.
    - Parameter discovery: discovers parameters in a target URL, which can help identify potential vulnerabilities and attack vectors in web applications.
 
-### Introduction:
+#### Introduction:
 ```
 ReconMaster used in the script include subfinder, amass, assetfinder, sublist3r, httprobe, dirsearch, ffuf, nmap, getJS, getallurls, waybackurls, waybackrobots, racetheweb, EyeWitness.py, massdns, xsstrike, sqlmap, xxeinjector, gopherus.py, git_dumper.py, gitallsecrets, corstest.py, and parameth.py.
 
@@ -35,7 +35,7 @@ Web technology reconnaissance is performed using getJS, getallurls, waybackurls,
 Network reconnaissance is performed using massdns, xsstrike, sqlmap, xxeinjector, gopherus.py, git_dumper.py, gitallsecrets, corstest.py, and parameth.py. The results are saved to files in the output directory.
 ```
 
-### Usage instructions :
+#### Usage instructions :
 
 ```
 Note : Use python 3.7+
@@ -53,7 +53,7 @@ Note : Use python 3.7+
     10- Once the scan is complete, the script will display the results in the terminal window.
     11- You can also find the results in the results directory, which will be created in the same directory where the script is located.
 ```
-### Note :
+#### Note :
 ```
      # instructions on how to install the missing tools :
 
@@ -127,12 +127,12 @@ Note : Use python 3.7+
 ```
   
 
-### Usage options :
+#### Usage options :
 
 ```
 1 - Open a terminal window.
 2 - Navigate to the directory where the script is saved.
-3 -  Run the command chmod +x BFpuredns.sh to make the script executable. 
+3 - Run the command chmod +x BFpuredns.sh to make the script executable. 
 4 - Run the script using the command ./BFpuredns.sh 
 5 - When prompted, enter the domain name to brute force.
 6 - Enter the wordlist file path. Make sure the file exists in the specified location.
@@ -143,30 +143,25 @@ Note : Use python 3.7+
 ```
 
 
-## Example :
+#### Example :
 
 ```
-./BFpuredns.sh
-Enter the domain name to brute force:
-example.com
-Enter the wordlist file path:
-/home/bruteforcedomain/subdomains.txt
-Enter the output file name:
-/home/bruteforcedomain/Final.txt
+# python3 verify_tool.py
+# python3 reconmaster.py
 
 ```
-### Note :
+#### Note :
 
 ```
 Note: Use of this script should only be for legitimate and legal purposes. It is important to ensure that you have proper authorization before performing subdomain enumeration on any domain.
 ```
 
-### My Twitter :
+#### My Twitter :
 
 
 **Say hello** : [TNRooT](https://github.com/TNRooT)
                 
             
-### My Youtube Channel :
+#### My Youtube Channel :
 **Say hello** : [TNRooT](https://youtube.com/@The_Ethical_TN)
 
